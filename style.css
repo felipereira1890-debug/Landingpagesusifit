@@ -451,13 +451,15 @@ a {
 
 .quote footer {
   font-weight: 1000;
+  color: #000;
 }
 
 .quote footer span {
   display: block;
   font-size: .8rem;
   font-weight: 700;
-  opacity: .65;
+  
+  color: #000;
 }
 
 /* Galeria */
