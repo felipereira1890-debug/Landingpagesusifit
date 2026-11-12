@@ -793,3 +793,10 @@ strong {
     padding: 70px 0;
   }
 }
+
+.pp:hover{
+
+  opacity: 0.1
+  ;
+
+}
