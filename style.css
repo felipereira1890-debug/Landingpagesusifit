@@ -26,6 +26,10 @@ body {
   line-height: 1.5;
 }
 
+.at{
+  color: red
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -548,14 +552,16 @@ a {
 
 .cardsplans {
   display: grid;
-  grid-template-columns:  1.3fr 2fr;
+  grid-template-columns:  1fr 1fr 1fr;
   gap: 10px;
   text-align: center;
+  
 }
 
 .titleplans {
+  background: var(--black);
   font-size: 2.1rem;
-  color: var(--black);
+  color: var(--white);
   font-weight: 900;
   border-radius: 20px;
   border: 2px solid var(--black);
@@ -982,6 +988,14 @@ strong {
 
   .cardsplans {
     grid-template-columns: 1fr;
+    
+  }
+
+  .cardssec{
+    min-width: 500px;
+   display: flex;
+   flex-direction: column;
+
   }
 
   .animals {
