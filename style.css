@@ -45,9 +45,8 @@ a {
   border-radius: 20px;
 }
 .imghero{
-  width: 100%;
-  min-height: 470px;
-  object-fit: cover;
+min-width: 100%;
+height: 69vh;
 }
 
 .imgg{
@@ -304,6 +303,8 @@ a {
 .section.yellow {
   background: var(--yellow);
   color: var(--black);
+  border: 1px solid #0003;
+
 }
 
 .section-head {
@@ -412,7 +413,8 @@ a {
 
 .imgsusi{
 
-  height: 500px;
+  min-width: 100%;
+ 
   
 }
 
@@ -556,6 +558,7 @@ a {
   gap: 10px;
   text-align: center;
   
+  
 }
 
 .titleplans {
@@ -565,7 +568,8 @@ a {
   font-weight: 900;
   border-radius: 20px;
   border: 2px solid var(--black);
-  padding: 1px;
+  padding: 25px;
+  margin-bottom: 10px;
 }
 
 .cardssec{
@@ -583,13 +587,13 @@ a {
 
 .price{
   color: var(--white);
-  font-size: 5.9rem;
+  font-size: 4.9rem;
   font-weight: 900;
 }
 
 .pricesec{
   color: var(--white);
-  font-size: 3.9rem;
+  font-size: 4.9rem;
   font-weight: 700;
   margin-top: -20px;
   display: flex;
