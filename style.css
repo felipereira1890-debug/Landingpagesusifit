@@ -739,6 +739,22 @@ a {
   height: 40px;
 }
 
+.opcoes1{
+
+   background: var(--yellow);
+  color: var(--black);
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 200px;
+
+
+}
+
 
 /* Agenda e horários */
 .events {
@@ -1082,7 +1098,7 @@ strong {
     height: 40px;
   }
 
-  .opcoes {
+  .opcoes, .opcoes1 {
 
     width: 100%;
   }
