@@ -655,20 +655,16 @@ a {
 }
 
 .countainertopic {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 20px;
-  margin-top: -20px;
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .countainertopic2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  gap: 20px;
-  margin-top: -20px;
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
 }
 
 .iconbox {
@@ -739,9 +735,9 @@ a {
   height: 40px;
 }
 
-.opcoes1{
+.opcoes1 {
 
-   background: var(--yellow);
+  background: var(--yellow);
   color: var(--black);
   border-radius: 10px;
   font-size: 1.2rem;
@@ -1020,6 +1016,7 @@ strong {
     align-items: center;
   }
 
+  /* seção de planos*/
   .cardsplans {
     grid-template-columns: 1fr;
 
@@ -1044,10 +1041,9 @@ strong {
   }
 
   .pricesec,
-  .pricesecm,
-  .pricesecm1 {
-    font-size: 2.5rem;
-    margin-top: -20px;
+  .pricesecm {
+    font-size: 2.9rem;
+    margin-top: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1059,23 +1055,31 @@ strong {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
-  .countainertopic2,
   .countainertopic {
-    display: flex;
-    flex-direction: column;
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+   
+   
+}
 
-
-  }
+.countainertopic2 {
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
 
 
   .topic,
   .topicsec {
     font-size: 1.5rem;
-    text-align: center;
+    text-align: justify;
     display: flex;
     align-items: center;
 
@@ -1098,7 +1102,8 @@ strong {
     height: 40px;
   }
 
-  .opcoes, .opcoes1 {
+  .opcoes,
+  .opcoes1 {
 
     width: 100%;
   }
